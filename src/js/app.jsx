@@ -58,17 +58,3 @@ export default class App extends React.Component {
             )
         }
     }
-
- //cument.getElementById('results').innerHTML = ` $ ${monthlyPayments.toFixed(2)} is your payment.`;
- // var userLoanAmount = document.getElementById('loan-balance').value;                                                            //  var userInterestRate = document.getElementById('interest-rate').value
-// var userLoanTerm = document.getElementById('loan-term').value;
-//let loanAmount = userLoanAmount;
-// let calculateInterest = (userInterestRate / 100) / 12 + 1;              // divide by 100 to turn into decimal, divide rate by 12 (12 months in year)
-// let calculateInterestOld = ((userInterestRate/100)) / 12;               // before adding 1
-// let calculateMonthlyPayments = userLoanTerm * 12;                       // take userLoanTerm and * by 12 to see total monthly payments
-// let a = Math.pow(calculateInterest, -calculateMonthlyPayments);          // make exponent from rate to total monthly payments
-// var b = 1 - a;                                                          // subtract 1 (formula)
-// var c = calculateInterestOld / b;                                 
-// var monthlyPayments = c * userLoanAmount;                             // calculates monthly payment 
-      // var roundMonthlyPayments = monthlyPayments.toFixed(2)
-// document.getElementById('results').innerHTML = ` $ ${roundMonthlyPayments} is your payment.`;
