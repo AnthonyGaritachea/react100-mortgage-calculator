@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: black;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 60px 0px;
+}
+
+#loan-balance {
+    margin-top: 20px;
+    margin-right: 50px;
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+}   
+
+#interest-rate {
+    margin-top: 20px;
+    margin-right: 50px;
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+}
+
+#loan-term {
+    margin-top: 20px;
+    margin-right: 50px;
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+}
+
+#button {
+    margin-top: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    font-size: 23px;
+    box-shadow: 0px 2px gray;
+}
+
+label {
+    font-size: 25px;
+    animation: fadeIn 2.2s;
+}
+
+p {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
